@@ -25,13 +25,12 @@ public class Human extends Animal implements Thinkable{
 
     // 引数ありコンストラクタ
     public Human(String name, int age, String hobby) {
-        super.setName(name);
-        super.setAge(age);
+        super(name, age);
         this.hobby = hobby;
     }
 
     // thinkメソッドの実装
     public void think() {
-        System.out.println("私は趣味である「" + hobby + "」について考えています。");
+        System.out.println("私は" + hobby + "について考えています。");
     }
 }

@@ -15,11 +15,8 @@
 //佐藤 花子です。20歳です。
 //私は映画について考えています。
 
-
 package animal;
-
 public class Review04 {
-
     public static void main(String[] args) {
         Human tanaka = new Human("田中太郎", 25, "電車");
         Human suzuki = new Human("鈴木次郎", 30, "野球");

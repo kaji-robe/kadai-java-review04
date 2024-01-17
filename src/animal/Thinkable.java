@@ -5,6 +5,7 @@
 
 package animal;
 
+//thinkメソッドの実装
 public interface Thinkable {
     void think();
 

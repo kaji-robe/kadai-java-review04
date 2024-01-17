@@ -30,10 +30,8 @@ public class Human extends Animal implements Thinkable{
         this.hobby = hobby;
     }
 
+    // thinkメソッドの実装
     public void think() {
         System.out.println("私は趣味である「" + hobby + "」について考えています。");
     }
-
-
-
 }

@@ -39,7 +39,7 @@ public class Animal {
         this.age = age;
     }
 
-    // sayメソッド
+    // sayメソッドの実装
     public void say() {
         System.out.println("私の名前は " + name + " です。" + "年齢は" + age + "歳です。");
     }
